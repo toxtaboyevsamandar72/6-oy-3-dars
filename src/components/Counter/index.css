@@ -1,0 +1,44 @@
+.counter {
+    width: 300px;
+    height: 200px;
+    background-color: chartreuse;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.incre {
+    border: 5px solid rgb(109, 213, 18);
+    padding: 10px;
+    border-radius: 30px;
+    color: blue;
+    background-color: black;
+    transition: all 0.5s;
+}
+.decre {
+    border: 5px solid rgb(109, 213, 18);
+    padding: 10px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    background-color: brown;
+    transition: all 0.5s;
+}
+.incre:hover {
+    background-color: rgb(74, 220, 72);
+}
+.decre:hover {
+    background-color: rgb(239, 154, 36);
+}
+.counterState {
+    text-align: center;
+}
+.misol {
+    margin-bottom: 20px;
+    
+}

@@ -1,0 +1,33 @@
+.game-picker-btn {
+    width: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .game-picker-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .selected-game {
+    margin-top: 20px;
+    color: #1fc82a;
+  }
+  .card-game {
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    text-align: center;
+  }
+  .card-game h5 {
+    color: aliceblue;
+    margin-bottom: 20px;
+    text-align: center;
+  }

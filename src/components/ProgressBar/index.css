@@ -1,0 +1,61 @@
+.progress-container {
+  width: 400px;
+  height: 200px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #2fc472;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.progress-bar {
+  height: 30px;
+  margin-left: -20px;
+  width: 100px;
+  margin-left: 30px;
+  background-color: #4023e1;
+  border-radius: 10px;
+  transition: width 0.3s ease;
+  color: rgb(132, 227, 125);
+  line-height: 35px;
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+.progress-container h5 {
+  color: black;
+  margin-bottom: 20px;
+}
+.increase {
+  width: 150px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  height: 35px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: #33423a;
+  color: rgb(221, 222, 233);
+}
+.increase:hover {
+  background-color: #75cd9d;
+}
+
+.decrease {
+  width: 150px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  height: 35px;
+  margin: 5px;
+  font-size: 16px;
+  background-color: rgb(230, 76, 76);
+  color: white;
+}
+
+.decrease:hover {
+  background-color: rgb(232, 117, 117);
+}
